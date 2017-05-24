@@ -1,1 +1,3 @@
-OrderedDictionary { }
+OrderedDictionary {
+	'packages\/HTTP2.package' : #SquotCypressCodeSerializer
+}
