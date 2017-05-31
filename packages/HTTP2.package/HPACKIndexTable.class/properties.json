@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"staticTable",
+		"dynamicTable" ],
+	"name" : "HPACKIndexTable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"payloadLength",
+		"type",
+		"flags",
+		"streamidentifier" ],
+	"name" : "HTTP2FrameHeader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

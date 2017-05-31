@@ -1,0 +1,3 @@
+encoding
+encode
+	self subclassResponsibility.

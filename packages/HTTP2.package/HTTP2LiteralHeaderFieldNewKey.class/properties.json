@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"value" ],
+	"name" : "HTTP2LiteralHeaderFieldNewKey",
+	"pools" : [
+		 ],
+	"super" : "HTTP2HeaderField",
+	"type" : "normal" }
