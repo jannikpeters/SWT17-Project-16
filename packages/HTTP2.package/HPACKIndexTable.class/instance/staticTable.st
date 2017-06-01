@@ -1,3 +1,0 @@
-accessing
-staticTable
-	^ staticTable

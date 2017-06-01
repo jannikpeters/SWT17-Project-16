@@ -1,14 +1,16 @@
 {
 	"category" : "HTTP2",
 	"classinstvars" : [
-		 ],
+		"staticTable" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"staticTable",
-		"dynamicTable" ],
-	"name" : "HPACKIndexTable",
+		"dynamicTable",
+		"maxDynamicSize",
+		"dynamicSize" ],
+	"name" : "HTTP2HPACKIndexTable",
 	"pools" : [
 		 ],
 	"super" : "Object",
