@@ -1,16 +1,19 @@
 {
 	"class" : {
+		"newWith:" : "DS 6/1/2017 16:00",
 		"staticTable" : "DS 6/1/2017 12:01",
 		"staticTable:" : "DS 6/1/2017 12:00" },
 	"instance" : {
-		"add:with:" : "DS 6/1/2017 12:25",
+		"add:with:" : "DS 6/1/2017 13:49",
 		"at:" : "DS 6/1/2017 12:33",
 		"dynamicSize" : "DS 6/1/2017 12:06",
 		"dynamicSize:" : "DS 6/1/2017 12:06",
 		"dynamicTable" : "DS 5/31/2017 21:56",
 		"dynamicTable:" : "DS 5/31/2017 21:56",
 		"evict:" : "DS 6/1/2017 12:45",
+		"indexOf:" : "DS 6/1/2017 16:43",
+		"indexOfKey:" : "DS 6/1/2017 16:22",
 		"initialize" : "DS 6/1/2017 12:29",
 		"maxDynamicSize" : "DS 6/1/2017 12:06",
-		"maxDynamicSize:" : "DS 6/1/2017 12:06",
+		"maxDynamicSize:" : "DS 6/1/2017 13:40",
 		"staticTable" : "DS 6/1/2017 11:44" } }

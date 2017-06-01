@@ -3,4 +3,7 @@
 		 },
 	"instance" : {
 		"testEncodeInteger" : "DS 5/31/2017 23:25",
-		"testEncodeString" : "DS 5/31/2017 23:47" } }
+		"testEncodeNeverIndexing" : "DS 6/1/2017 18:09",
+		"testEncodeString" : "DS 5/31/2017 23:47",
+		"testEncodeWithIndexing" : "DS 6/1/2017 16:54",
+		"testEncodeWithoutIndexing" : "DS 6/1/2017 18:02" } }

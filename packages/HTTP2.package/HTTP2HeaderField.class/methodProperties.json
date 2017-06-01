@@ -1,7 +1,19 @@
 {
 	"class" : {
-		 },
+		"key:value:" : "DS 6/1/2017 18:18",
+		"key:value:indexingAction:" : "DS 6/1/2017 18:18" },
 	"instance" : {
-		"encode" : "DS 5/31/2017 22:35",
+		"encode:" : "DS 6/1/2017 16:41",
 		"encodeInteger:with:" : "DS 5/31/2017 23:28",
-		"encodeString:" : "DS 5/31/2017 23:38" } }
+		"encodeNeverIndexing:" : "DS 6/1/2017 15:46",
+		"encodeString:" : "DS 5/31/2017 23:38",
+		"encodeWithIndexing:" : "DS 6/1/2017 16:30",
+		"encodeWithoutIndexing:" : "DS 6/1/2017 15:44",
+		"indexedRepresentation:" : "DS 6/1/2017 16:43",
+		"indexingAction" : "DS 6/1/2017 14:27",
+		"indexingAction:" : "DS 6/1/2017 14:27",
+		"initialize" : "DS 6/1/2017 15:57",
+		"literalRepresentation:prefix:length:" : "DS 6/1/2017 16:20",
+		"literalRepresentationIndexedKey:prefix:length:" : "DS 6/1/2017 16:53",
+		"literalRepresentationNewKey:" : "DS 6/1/2017 16:17",
+		"species" : "DS 6/1/2017 16:42" } }

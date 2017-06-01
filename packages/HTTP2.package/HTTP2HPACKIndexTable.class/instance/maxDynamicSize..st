@@ -1,3 +1,4 @@
 accessing
-maxDynamicSize: anObject
-	maxDynamicSize := anObject
+maxDynamicSize: aSize
+	maxDynamicSize := aSize.
+	self evict: aSize.

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"indexingAction" ],
 	"name" : "HTTP2HeaderField",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Association",
 	"type" : "normal" }
