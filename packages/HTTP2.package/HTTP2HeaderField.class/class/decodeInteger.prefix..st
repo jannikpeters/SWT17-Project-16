@@ -7,7 +7,7 @@ decodeInteger: aStream prefix: aPrefix
 		ifFalse: [
 			value := value + (aStream next bitAnd: 127).
 			exp := 7.
-			[(aStream peek bitAt: 7) = 1] whileTrue: [
+			[(aStream peek bitAt: 0) = 1] whileTrue: [
 				value := value + ((aStream next bitAnd: 127) * (2 raisedTo: exp)).
 				exp := exp + 7.].
 			^ (value + ((aStream next bitAnd: 127) * (2 raisedTo: exp)))]
