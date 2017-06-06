@@ -1,0 +1,3 @@
+type
+asCONTINUATION
+	self asType: #CONTINUATION

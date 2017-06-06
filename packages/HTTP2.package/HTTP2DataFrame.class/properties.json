@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"payloadLength",
-		"type",
-		"flags",
-		"streamidentifier" ],
-	"name" : "HTTP2FrameHeader",
+		"padding" ],
+	"name" : "HTTP2DataFrame",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "HTTP2Frame",
 	"type" : "normal" }

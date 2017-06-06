@@ -1,0 +1,3 @@
+type
+asWINDOW_UPDATE
+	self asType: #WINDOW_UPDATE

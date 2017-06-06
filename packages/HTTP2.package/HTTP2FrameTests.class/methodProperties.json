@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFromPayload" : "DS 6/6/2017 19:17",
+		"testFromPayloadAndPadding" : "DS 6/6/2017 20:19" } }
