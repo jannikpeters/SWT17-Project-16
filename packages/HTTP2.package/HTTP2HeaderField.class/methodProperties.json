@@ -2,12 +2,12 @@
 	"class" : {
 		"decodeIndexed:in:" : "H. G. 6/6/2017 17:53",
 		"decodeInteger:prefix:" : "H. G. 6/6/2017 19:17",
-		"decodeLiteralWithIndexing:in:" : "H. G. 6/6/2017 18:41",
+		"decodeLiteralWithIndexing:in:" : "H. G. 6/6/2017 19:41",
 		"decodeLiteralWithoutIndexing:in:" : "H. G. 6/6/2017 18:14",
 		"decodeString:" : "H. G. 6/6/2017 17:50",
 		"key:value:" : "DS 6/1/2017 18:18",
 		"key:value:indexingAction:" : "DS 6/1/2017 18:18",
-		"newFrom:in:" : "H. G. 6/6/2017 19:24" },
+		"newFrom:in:" : "H. G. 6/6/2017 19:28" },
 	"instance" : {
 		"encode:" : "DS 6/1/2017 16:41",
 		"encodeInteger:with:" : "DS 5/31/2017 23:28",
