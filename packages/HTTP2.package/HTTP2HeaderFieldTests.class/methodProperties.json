@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testDecodeInteger" : "jp 6/6/2017 12:26",
 		"testEncodeInteger" : "jp 6/6/2017 11:45",
 		"testEncodeNeverIndexing" : "DS 6/1/2017 18:09",
 		"testEncodeString" : "DS 5/31/2017 23:47",
