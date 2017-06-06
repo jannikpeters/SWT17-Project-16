@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"testDecodeAndEncodeInteger" : "jp 6/6/2017 17:39",
-		"testDecodeIndexed" : "H. G. 6/6/2017 18:25",
+		"testDecodeIndexed" : "H. G. 6/6/2017 18:33",
 		"testDecodeInteger" : "jp 6/6/2017 12:42",
 		"testDecodeString" : "jp 6/6/2017 17:54",
-		"testDecodeWithIndexing" : "H. G. 6/6/2017 18:17",
+		"testDecodeWithIndexing" : "H. G. 6/6/2017 18:49",
+		"testDecodeWithoutIndexing" : "H. G. 6/6/2017 18:54",
 		"testEncodeInteger" : "jp 6/6/2017 11:45",
 		"testEncodeNeverIndexing" : "DS 6/1/2017 18:09",
 		"testEncodeString" : "jp 6/6/2017 17:53",

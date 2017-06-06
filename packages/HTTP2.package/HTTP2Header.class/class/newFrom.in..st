@@ -1,5 +1,8 @@
 as yet unclassified
 newFrom: aHeaderBlock in: aContext
-	| stream |
+	| stream header |
 	stream := ReadStream on: aHeaderBlock.
-	self add: (HTTP2HeaderField newFrom: stream in: aContext).
+	header := self newInContext: HTTP2HPACKIndexTable new.
+	[stream atEnd] whileFalse: [
+		header add: (HTTP2HeaderField newFrom: stream in: aContext).].
+	^ header.
