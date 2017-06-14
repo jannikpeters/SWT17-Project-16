@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testConnectionTrue
 	| server|
 	server := WebServer newForUrl: 'localhost'.

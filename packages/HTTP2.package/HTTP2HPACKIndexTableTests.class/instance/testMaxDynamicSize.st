@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMaxDynamicSize
 	| indexTable |
 	indexTable := HTTP2HPACKIndexTable new.

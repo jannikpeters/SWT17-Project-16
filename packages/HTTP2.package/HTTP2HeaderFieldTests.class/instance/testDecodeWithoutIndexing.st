@@ -1,4 +1,4 @@
-tests
+testDecode
 testDecodeWithoutIndexing
 	| headerF indexTable |
 	indexTable := HTTP2HPACKIndexTable newWith: 100.

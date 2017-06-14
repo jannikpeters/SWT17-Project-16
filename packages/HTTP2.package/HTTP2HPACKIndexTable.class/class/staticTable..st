@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 staticTable: anOrderedCollection
 	staticTable := anOrderedCollection.

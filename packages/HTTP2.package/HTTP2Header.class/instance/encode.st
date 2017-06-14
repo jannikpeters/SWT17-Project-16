@@ -1,4 +1,4 @@
-as yet unclassified
+encoding
 encode
 	| headerBlock |
 	headerBlock := ByteArray new.

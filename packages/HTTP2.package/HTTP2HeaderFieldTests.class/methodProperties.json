@@ -4,9 +4,9 @@
 	"instance" : {
 		"testDecodeAndEncodeInteger" : "jp 6/6/2017 17:39",
 		"testDecodeIndexed" : "H. G. 6/6/2017 18:33",
-		"testDecodeInteger" : "jp 6/6/2017 12:42",
+		"testDecodeInteger" : "jp 6/10/2017 12:34",
 		"testDecodeString" : "jp 6/6/2017 17:54",
-		"testDecodeWithIndexing" : "H. G. 6/6/2017 18:49",
+		"testDecodeWithIndexing" : "jp 6/10/2017 12:34",
 		"testDecodeWithoutIndexing" : "H. G. 6/6/2017 18:54",
 		"testEncodeInteger" : "jp 6/6/2017 11:45",
 		"testEncodeNeverIndexing" : "DS 6/1/2017 18:09",

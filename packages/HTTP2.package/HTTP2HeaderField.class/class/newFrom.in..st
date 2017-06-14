@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aStream in: aContext
 	| firstByte |
 	firstByte := aStream peek.

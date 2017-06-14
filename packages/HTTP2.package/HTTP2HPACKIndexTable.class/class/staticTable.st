@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 staticTable 
 	staticTable ifNotNil: [^ staticTable].
 	^ staticTable := OrderedCollection new

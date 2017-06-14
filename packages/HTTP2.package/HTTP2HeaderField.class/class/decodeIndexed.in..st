@@ -1,4 +1,4 @@
-as yet unclassified
+decode
 decodeIndexed: aStream in: aContext
 	| index |
 	index := self decodeInteger: aStream prefix: 7.

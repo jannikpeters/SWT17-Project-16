@@ -1,4 +1,4 @@
-as yet unclassified
+decode
 decodeLiteralWithoutIndexing: aStream in: aContext
 	| firstByte key |
 	firstByte := aStream peek bitAnd: 16r0f.

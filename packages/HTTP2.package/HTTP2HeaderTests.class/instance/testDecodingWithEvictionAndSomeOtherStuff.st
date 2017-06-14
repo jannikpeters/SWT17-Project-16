@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDecodingWithEvictionAndSomeOtherStuff
 	| header indexTable |
 	indexTable := HTTP2HPACKIndexTable newWith: 256.

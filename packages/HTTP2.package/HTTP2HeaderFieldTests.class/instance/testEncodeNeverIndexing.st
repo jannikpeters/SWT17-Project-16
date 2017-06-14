@@ -1,4 +1,4 @@
-tests
+testEncode
 testEncodeNeverIndexing
 	| headerField indexTable |
 	headerField := HTTP2HeaderField key: 'password' value: 'secret'.

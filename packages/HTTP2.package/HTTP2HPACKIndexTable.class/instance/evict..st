@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 evict: aSize
 	| lastElement | 
 	(self dynamicSize > aSize and: self dynamicTable size > 0)

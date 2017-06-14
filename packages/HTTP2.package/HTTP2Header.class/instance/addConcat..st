@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addConcat: anAssociation
 	| newValue |
 	newValue := (self at: anAssociation key ifAbsent:  [ ^ '' ]), ', ', anAssociation value.

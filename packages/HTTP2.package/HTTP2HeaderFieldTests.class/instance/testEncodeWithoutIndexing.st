@@ -1,4 +1,4 @@
-tests
+testEncode
 testEncodeWithoutIndexing
 	| headerField indexTable |
 	headerField := HTTP2HeaderField key: ':path' value: '/sample/path'.

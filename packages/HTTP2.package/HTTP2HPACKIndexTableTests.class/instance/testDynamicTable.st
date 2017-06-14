@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDynamicTable
 	| indexTable |
 	indexTable := HTTP2HPACKIndexTable new.

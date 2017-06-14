@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aHeaderBlock in: aContext
 	| stream header |
 	stream := ReadStream on: aHeaderBlock.

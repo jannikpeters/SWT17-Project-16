@@ -1,4 +1,4 @@
-as yet unclassified
+indexing
 indexOfKey: aKey
 	| index |
 	index := 1.

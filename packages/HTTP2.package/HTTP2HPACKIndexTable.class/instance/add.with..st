@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 add: key with: value
 	| size |
 	size := key byteSize + value byteSize + 32.

@@ -1,4 +1,4 @@
-as yet unclassified
+indexing
 indexOf: anAssociation
 	| index |
 	index := self staticTable indexOf: anAssociation.

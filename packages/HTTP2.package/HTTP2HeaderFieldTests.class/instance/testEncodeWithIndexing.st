@@ -1,4 +1,4 @@
-tests
+testEncode
 testEncodeWithIndexing
 	| headerField indexTable |
 	headerField := HTTP2HeaderField key: 'custom-key' value: 'custom-header'.

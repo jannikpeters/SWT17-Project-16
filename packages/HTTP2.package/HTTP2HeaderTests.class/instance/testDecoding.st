@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDecoding
 	| header indexTable |
 	indexTable := HTTP2HPACKIndexTable newWith: 200.

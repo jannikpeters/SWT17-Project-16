@@ -1,4 +1,4 @@
-as yet unclassified
+class initialization
 fromPayload: aPayload andPaddingLength: aPaddingLength
 	| frame |
 	frame := super fromPayload: 

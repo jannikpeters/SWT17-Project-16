@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testFromPayload
 	| header frame | 
 	header := HTTP2Header newInContext: (HTTP2HPACKIndexTable newWith: 1000).

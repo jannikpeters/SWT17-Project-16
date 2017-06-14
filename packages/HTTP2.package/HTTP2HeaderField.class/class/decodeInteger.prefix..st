@@ -1,4 +1,4 @@
-as yet unclassified
+decode
 decodeInteger: aStream prefix: aPrefix
 	| value exp |
 	value := aStream next bitAnd: (2 raisedTo: aPrefix) - 1.

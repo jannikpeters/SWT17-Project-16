@@ -1,4 +1,4 @@
-as yet unclassified
+decode
 decodeString: aStream
 	| length |
 	length := self decodeInteger: aStream prefix: 7.
