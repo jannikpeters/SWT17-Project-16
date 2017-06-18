@@ -1,15 +1,17 @@
 {
 	"class" : {
-		 },
+		"customKeycustomValueinByte" : "jp 6/18/2017 21:52",
+		"customKeyinByte" : "jp 6/18/2017 21:26",
+		"customValueInByte" : "jp 6/18/2017 21:26" },
 	"instance" : {
 		"testDecodeAndEncodeInteger" : "jp 6/6/2017 17:39",
 		"testDecodeIndexed" : "H. G. 6/6/2017 18:33",
 		"testDecodeInteger" : "jp 6/10/2017 12:34",
-		"testDecodeString" : "jp 6/6/2017 17:54",
-		"testDecodeWithIndexing" : "jp 6/10/2017 12:34",
-		"testDecodeWithoutIndexing" : "H. G. 6/6/2017 18:54",
+		"testDecodeString" : "jp 6/18/2017 21:27",
+		"testDecodeWithIndexing" : "jp 6/18/2017 21:52",
+		"testDecodeWithoutIndexing" : "jp 6/18/2017 21:53",
 		"testEncodeInteger" : "jp 6/6/2017 11:45",
 		"testEncodeNeverIndexing" : "DS 6/1/2017 18:09",
-		"testEncodeString" : "jp 6/6/2017 17:53",
+		"testEncodeString" : "jp 6/18/2017 21:37",
 		"testEncodeWithIndexing" : "jp 6/6/2017 18:03",
-		"testEncodeWithoutIndexing" : "DS 6/1/2017 18:02" } }
+		"testEncodeWithoutIndexing" : "jp 6/18/2017 21:57" } }
