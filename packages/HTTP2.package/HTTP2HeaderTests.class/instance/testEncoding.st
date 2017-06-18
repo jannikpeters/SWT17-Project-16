@@ -1,7 +1,7 @@
-testing
+as yet unclassified
 testEncoding
 	| header indexTable |
-	indexTable := HTTP2HPACKIndexTable newWith: 1000.
+	indexTable := HTTP2HPACKIndexTable newWith: 1000."large enough to don't cause any evictions"
 	header := HTTP2Header newInContext: indexTable.
 	header 
 		add: ':method'->'GET';

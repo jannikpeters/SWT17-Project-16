@@ -1,3 +1,3 @@
 adding
 addWithIndexing: aKey value: aValue
-	super add: (HTTP2HeaderField key: aKey value: aValue indexingAction: #encodeWithIndexing:)
+	super add: (HTTP2HeaderFieldWithIndexing key: aKey value: aValue)

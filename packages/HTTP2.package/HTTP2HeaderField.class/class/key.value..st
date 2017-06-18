@@ -1,3 +1,6 @@
 key-value accessing
 key: aKey value: aValue
-	^ self key: aKey value: aValue indexingAction: #encodeWithIndexing:
+	^ self new 
+		key: aKey; 
+		value: aValue;
+		yourself
