@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"padding" ],
+	"name" : "HTTP2PingFrame",
+	"pools" : [
+		 ],
+	"super" : "HTTP2Frame",
+	"type" : "normal" }
