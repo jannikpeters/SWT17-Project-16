@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfHTTP2",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
