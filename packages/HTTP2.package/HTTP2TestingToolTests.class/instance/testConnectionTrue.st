@@ -1,11 +1,13 @@
 testing
 testConnectionTrue
-	| server|
-	server := self newServerOnPort: 65004 
+	| server port|
+	port := self port.
+	server := self newServerOnPort: port 
 				   withProtocol: 'HTTP/1.1' 
-				   code: 101 
-				   response: 'HTTP/1.1 101 Switching Protocols'.
-	self assert: (HTTP2TestingTool testConnection: 'localhost' port: 65004).
+				   code: 101
+				   response: 'Switching Protocols'.
+	self assert: (HTTP2TestingTool testConnection: 'localhost' port: port).
 	server destroy.
+	
 	
 	
