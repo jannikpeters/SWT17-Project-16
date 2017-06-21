@@ -1,7 +1,5 @@
 encoding
 encode
-	| headerBlock |
-	headerBlock := ByteArray new.
-	self associationsDo: [:association |
-		headerBlock := headerBlock, (association encode: self indexTable)].  
-	^ headerBlock
+	^ ByteArray streamContents: [:stream |
+		self associationsDo: [:association |
+			stream nextPutAll: (association encode: self indexTable)]]

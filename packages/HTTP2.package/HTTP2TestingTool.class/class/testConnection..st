@@ -1,7 +1,6 @@
 testConnection
 testConnection: url
 	|  response |
-	self halt.
 	response := WebClient httpRequest: 'GET' url: 'http://', url
 		headers: 'Connection: Upgrade, HTTP2-Settings',Character cr,Character lf,'Upgrade: h2c', 	Character cr, Character lf, 'HTTP2-Settings: AAMAAABkAAQAAP__'
 		content: nil response: [:resp|Transcript show: resp.].
