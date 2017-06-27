@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding" ],
+		"padding",
+		"lastID",
+		"errorCode" ],
 	"name" : "HTTP2GoawayFrame",
 	"pools" : [
 		 ],

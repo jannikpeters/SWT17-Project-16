@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		"errorCodeDictionary",
+		"typeDictionary" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorCodeDictionary" ],
+	"name" : "HTTP2Error",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

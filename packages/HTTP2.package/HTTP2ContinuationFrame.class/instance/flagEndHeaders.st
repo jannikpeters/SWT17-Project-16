@@ -1,3 +1,3 @@
 as yet unclassified
 flagEndHeaders
-	self flags bitAt: 3.
+	^self flags bitAt: 3.

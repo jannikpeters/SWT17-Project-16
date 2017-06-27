@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding" ],
+		"padding",
+		"identifier",
+		"value" ],
 	"name" : "HTTP2SettingsFrame",
 	"pools" : [
 		 ],

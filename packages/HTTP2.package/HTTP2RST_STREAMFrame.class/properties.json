@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding" ],
+		"padding",
+		"errorCode",
+		"stream" ],
 	"name" : "HTTP2RST_STREAMFrame",
 	"pools" : [
 		 ],

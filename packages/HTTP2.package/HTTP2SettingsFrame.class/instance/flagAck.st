@@ -1,3 +1,3 @@
 as yet unclassified
 flagAck
-	self flags bitAt: 1 
+	^self flags bitAt: 1 

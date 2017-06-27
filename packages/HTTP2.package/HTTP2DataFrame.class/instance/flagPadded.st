@@ -1,3 +1,3 @@
 accessing
 flagPadded
-	self flags bitAt: 4 
+	^self flags bitAt: 4 
