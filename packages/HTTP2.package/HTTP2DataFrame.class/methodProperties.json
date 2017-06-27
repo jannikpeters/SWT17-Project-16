@@ -2,7 +2,9 @@
 	"class" : {
 		"fromPayload:andPaddingLength:" : "DS 6/6/2017 20:01" },
 	"instance" : {
+		"flagEndStream" : "jp 6/27/2017 21:10",
 		"flagEndStream:" : "DS 6/6/2017 19:32",
+		"flagPadded" : "jp 6/27/2017 21:11",
 		"flagPadded:" : "DS 6/6/2017 19:34",
 		"padding" : "DS 6/6/2017 19:37",
 		"padding:" : "DS 6/6/2017 19:53",
