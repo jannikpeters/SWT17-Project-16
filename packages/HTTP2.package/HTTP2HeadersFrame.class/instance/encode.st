@@ -7,5 +7,4 @@ encode
 		((self streamDependency bitAt: 32 put: (self E)) asByteArrayOfSize: 4), 
 		((self weight) asByteArrayOfSize: 1), 
 		payload].
-	self flagPadded ifTrue: [ payload := (self padding size asByteArrayOfSize: 1), payload, self padding].
 	^ super encode: payload.

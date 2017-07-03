@@ -9,8 +9,7 @@
 		"type",
 		"flags",
 		"streamIdentifier",
-		"payload",
-		"payloadLength" ],
+		"payload" ],
 	"name" : "HTTP2Frame",
 	"pools" : [
 		 ],

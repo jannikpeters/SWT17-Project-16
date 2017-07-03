@@ -1,3 +1,3 @@
 as yet unclassified
 type
-	^9
+	^ 9

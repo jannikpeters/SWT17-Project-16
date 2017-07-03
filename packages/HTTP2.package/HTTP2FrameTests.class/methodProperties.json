@@ -2,6 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testContinuationFrame" : "DS 7/3/2017 18:04",
+		"testDataFrameFromPayload" : "DS 7/3/2017 16:58",
 		"testDataFrameFromPayloadAndPadding" : "DS 7/3/2017 15:27",
 		"testFrameFromPayload" : "DS 7/3/2017 15:26",
-		"testHeaderFrame" : "DS 7/3/2017 15:52" } }
+		"testGoawayFrame" : "DS 7/3/2017 17:44",
+		"testHeaderFrame" : "DS 7/3/2017 15:52",
+		"testPUSH_PROMISEFrame" : "DS 7/3/2017 17:03",
+		"testPingFrame" : "DS 7/3/2017 17:10",
+		"testPriorityFrame" : "DS 7/3/2017 16:05",
+		"testRST_STREAMFrame" : "DS 7/3/2017 16:09",
+		"testSETTINGSFrame" : "DS 7/3/2017 16:38",
+		"testWindow_UpdateFrame" : "DS 7/3/2017 17:54" } }

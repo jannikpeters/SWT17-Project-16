@@ -1,9 +1,11 @@
 {
 	"class" : {
-		 },
+		"fromOpaqueData:" : "DS 7/3/2017 17:08" },
 	"instance" : {
+		"encode" : "DS 7/3/2017 17:06",
 		"flagAck" : "jp 6/27/2017 21:21",
 		"flagAck:" : "jp 6/19/2017 10:53",
 		"opaqueData" : "jp 6/27/2017 21:29",
 		"opaqueData:" : "jp 6/27/2017 21:29",
+		"streamIdentifier" : "DS 7/3/2017 17:04",
 		"type" : "jp 6/19/2017 11:12" } }

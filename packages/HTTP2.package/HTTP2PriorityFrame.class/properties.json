@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"streamDependency" ],
+		"streamDependency",
+		"e",
+		"weight" ],
 	"name" : "HTTP2PriorityFrame",
 	"pools" : [
 		 ],

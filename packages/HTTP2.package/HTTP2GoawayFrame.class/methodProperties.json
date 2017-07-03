@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"debugData" : "DS 7/3/2017 17:26",
+		"debugData:" : "DS 7/3/2017 17:26",
+		"encode" : "DS 7/3/2017 17:30",
 		"errorCode" : "jp 6/27/2017 21:30",
 		"errorCode:" : "jp 6/27/2017 21:30",
 		"lastID" : "jp 6/27/2017 21:29",
 		"lastID:" : "jp 6/27/2017 21:29",
+		"streamIdentifier" : "DS 7/3/2017 17:25",
 		"type" : "jp 6/19/2017 11:12" } }
