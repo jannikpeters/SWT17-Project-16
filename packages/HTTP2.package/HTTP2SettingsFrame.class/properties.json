@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding",
 		"identifier",
 		"value" ],
 	"name" : "HTTP2SettingsFrame",

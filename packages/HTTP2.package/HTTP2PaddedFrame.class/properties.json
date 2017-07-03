@@ -6,11 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding",
-		"streamDependency",
-		"weight",
-		"stream" ],
-	"name" : "HTTP2HeaderFrame",
+		"padding" ],
+	"name" : "HTTP2PaddedFrame",
 	"pools" : [
 		 ],
 	"super" : "HTTP2Frame",

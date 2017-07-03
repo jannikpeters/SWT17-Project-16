@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding" ],
+		 ],
 	"name" : "HTTP2DataFrame",
 	"pools" : [
 		 ],
-	"super" : "HTTP2Frame",
+	"super" : "HTTP2PaddedFrame",
 	"type" : "normal" }

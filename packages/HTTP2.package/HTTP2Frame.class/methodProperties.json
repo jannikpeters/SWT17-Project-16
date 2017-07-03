@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"fromPayload:" : "DS 6/6/2017 19:44",
+		"fromPayload:" : "DS 7/3/2017 14:09",
 		"typeDictionary" : "DS 6/6/2017 19:22" },
 	"instance" : {
 		"asCONTINUATION" : "DS 6/6/2017 18:16",
@@ -14,7 +14,7 @@
 		"asSETTINGS" : "DS 6/6/2017 18:15",
 		"asType:" : "DS 6/6/2017 19:23",
 		"asWINDOW_UPDATE" : "DS 6/6/2017 18:16",
-		"encode" : "DS 6/6/2017 19:45",
+		"encode:" : "DS 7/3/2017 15:06",
 		"flags" : "DS 5/31/2017 10:54",
 		"flags:" : "DS 5/31/2017 10:54",
 		"initialize" : "DS 6/6/2017 19:22",

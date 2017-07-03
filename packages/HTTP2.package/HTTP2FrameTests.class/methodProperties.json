@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testFromPayload" : "jp 6/18/2017 21:44",
-		"testFromPayloadAndPadding" : "DS 6/6/2017 20:19" } }
+		"testDataFrameFromPayloadAndPadding" : "DS 7/3/2017 15:27",
+		"testFrameFromPayload" : "DS 7/3/2017 15:26",
+		"testHeaderFrame" : "DS 7/3/2017 15:52" } }

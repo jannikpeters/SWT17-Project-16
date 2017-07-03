@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"padding",
 		"opaqueData" ],
 	"name" : "HTTP2PingFrame",
 	"pools" : [

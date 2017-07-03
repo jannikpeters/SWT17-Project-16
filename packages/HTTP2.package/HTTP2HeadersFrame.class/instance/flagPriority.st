@@ -1,3 +1,3 @@
 as yet unclassified
 flagPriority
-	^self flags bitAt: 6 
+	^ (self flags bitAt: 6) = 1

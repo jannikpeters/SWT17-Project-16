@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"promisedID" ],
-	"name" : "HTTP2Push_PromiseFrame",
+		"streamDependency",
+		"weight",
+		"stream",
+		"e" ],
+	"name" : "HTTP2HeadersFrame",
 	"pools" : [
 		 ],
 	"super" : "HTTP2PaddedFrame",
