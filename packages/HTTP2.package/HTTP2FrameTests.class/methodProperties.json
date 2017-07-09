@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testContinuationFrame" : "DS 7/3/2017 18:04",
-		"testDataFrameFromPayload" : "DS 7/3/2017 16:58",
-		"testDataFrameFromPayloadAndPadding" : "DS 7/3/2017 15:27",
-		"testFrameFromPayload" : "DS 7/3/2017 15:26",
-		"testGoawayFrame" : "DS 7/3/2017 17:44",
-		"testHeaderFrame" : "DS 7/3/2017 15:52",
-		"testPUSH_PROMISEFrame" : "DS 7/3/2017 17:03",
-		"testPingFrame" : "DS 7/3/2017 17:10",
-		"testPriorityFrame" : "DS 7/3/2017 16:05",
-		"testRST_STREAMFrame" : "DS 7/3/2017 16:09",
+		"testContinuationFrame" : "jp 7/8/2017 19:46",
+		"testDataFrameFromPayload" : "jp 7/8/2017 20:29",
+		"testDataFrameFromPayloadAndPadding" : "jp 7/9/2017 09:33",
+		"testGoawayFrame" : "jp 7/8/2017 19:55",
+		"testHeaderFrame" : "jp 7/9/2017 09:45",
+		"testHeaderWithPriorityFrame" : "jp 7/9/2017 09:46",
+		"testPUSH_PROMISEFrame" : "jp 7/9/2017 09:53",
+		"testPingFrame" : "jp 7/8/2017 19:46",
+		"testPriorityFrame" : "jp 7/8/2017 20:05",
+		"testRST_STREAMFrame" : "jp 7/8/2017 20:13",
 		"testSETTINGSFrame" : "DS 7/3/2017 16:38",
-		"testWindow_UpdateFrame" : "DS 7/3/2017 17:54" } }
+		"testWindow_UpdateFrame" : "jp 7/8/2017 20:15" } }
