@@ -6,11 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"headerBlockIn",
-		"request",
-		"response",
-		"responseBlock" ],
-	"name" : "HTTP2Stream",
+		 ],
+	"name" : "HTTP2ControlStream",
 	"pools" : [
 		 ],
 	"super" : "Object",

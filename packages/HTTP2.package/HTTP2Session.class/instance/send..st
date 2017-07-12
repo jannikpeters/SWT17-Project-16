@@ -7,5 +7,5 @@ send: aRequest
 	headerFrame streamIdentifier: 1.
 	self stream nextPutAll: headerFrame encode;
 		flush.
-	self halt.
+	(Delay forMilliseconds: 200) wait.
 	self stream nextPutAll: #[16r00 16r00   16r00 16r00 16r06 16r04 16r01 16r00 16r00 16r00 16r00 16r00 16r03 16r00 16r00 16r00 16r64].
