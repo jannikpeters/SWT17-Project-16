@@ -1,5 +1,5 @@
 accessing
-typeDictionary 
+typeDictionary
 	typeDictionary
 		ifNil: [
 			typeDictionary := Dictionary new
