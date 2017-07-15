@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"controlStream",
+		"nextFreeStreamId",
+		"activeStreams",
+		"socketStream",
+		"connectionActive" ],
 	"name" : "HTTP2StreamManager",
 	"pools" : [
 		 ],

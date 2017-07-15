@@ -9,7 +9,11 @@
 		"headerBlockIn",
 		"request",
 		"response",
-		"responseBlock" ],
+		"responseBlock",
+		"requestFrameStream",
+		"headerStreamOut",
+		"dataStreamOut",
+		"id" ],
 	"name" : "HTTP2Stream",
 	"pools" : [
 		 ],

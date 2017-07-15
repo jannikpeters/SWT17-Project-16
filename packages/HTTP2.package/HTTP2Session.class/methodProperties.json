@@ -1,17 +1,17 @@
 {
 	"class" : {
 		"connectionPreface" : "H. G. 7/12/2017 00:19",
-		"establishConnectionTo:" : "H. G. 7/12/2017 00:31" },
+		"establishConnectionTo:" : "H. G. 7/14/2017 14:25" },
 	"instance" : {
-		"close" : "H. G. 7/12/2017 02:54",
-		"connect" : "H. G. 7/12/2017 02:08",
+		"close" : "H. G. 7/14/2017 14:30",
+		"connect" : "H. G. 7/14/2017 15:05",
 		"headerTableIn" : "H. G. 7/12/2017 00:12",
 		"headerTableIn:" : "H. G. 7/12/2017 00:12",
 		"headerTableOut" : "H. G. 7/12/2017 00:12",
 		"headerTableOut:" : "H. G. 7/12/2017 00:12",
 		"newRequest" : "H. G. 7/12/2017 01:16",
-		"receive" : "H. G. 7/12/2017 03:54",
-		"send:" : "H. G. 7/12/2017 02:57",
+		"newRequestFor:" : "H. G. 7/14/2017 14:29",
+		"send:onReceiveDo:" : "H. G. 7/14/2017 14:56",
 		"server" : "H. G. 7/12/2017 00:15",
 		"server:" : "H. G. 7/12/2017 00:15",
 		"stream" : "H. G. 7/12/2017 00:21",

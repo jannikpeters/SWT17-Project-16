@@ -1,5 +1,23 @@
 {
 	"class" : {
-		 },
+		"newOn:" : "H. G. 7/14/2017 14:02" },
 	"instance" : {
-		 } }
+		"activeStreams" : "H. G. 7/13/2017 00:25",
+		"activeStreams:" : "H. G. 7/13/2017 00:25",
+		"closeConnection" : "H. G. 7/14/2017 15:27",
+		"connectionActive" : "H. G. 7/14/2017 13:39",
+		"connectionActive:" : "H. G. 7/14/2017 13:39",
+		"controlStream" : "H. G. 7/14/2017 18:50",
+		"controlStream:" : "H. G. 7/14/2017 18:50",
+		"initialize" : "H. G. 7/14/2017 15:17",
+		"initiateCommunication" : "H. G. 7/14/2017 18:50",
+		"nextFreeStreamId" : "H. G. 7/13/2017 00:17",
+		"nextFreeStreamId:" : "H. G. 7/13/2017 00:17",
+		"nextFreeStreamIdPostIncrement" : "H. G. 7/13/2017 00:20",
+		"openStreamFor:onReceiveDo:" : "H. G. 7/13/2017 00:24",
+		"receive" : "H. G. 7/14/2017 18:52",
+		"receiveLoop" : "H. G. 7/14/2017 18:48",
+		"send" : "H. G. 7/14/2017 14:09",
+		"sendLoop" : "H. G. 7/14/2017 13:39",
+		"socketStream" : "H. G. 7/14/2017 13:35",
+		"socketStream:" : "H. G. 7/14/2017 13:35" } }

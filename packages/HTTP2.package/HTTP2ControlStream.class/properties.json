@@ -10,5 +10,5 @@
 	"name" : "HTTP2ControlStream",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "HTTP2Stream",
 	"type" : "normal" }
