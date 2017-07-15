@@ -1,3 +1,3 @@
 accessing
-debugData: anObject
-	debugData := anObject
+debugData: aCollection
+	debugData := aCollection

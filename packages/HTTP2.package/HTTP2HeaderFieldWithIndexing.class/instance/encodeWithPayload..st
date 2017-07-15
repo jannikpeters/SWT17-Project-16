@@ -1,9 +1,9 @@
 as yet unclassified
-encode: anIndexTable
+encodeWithPayload: anIndexTable
 	| byteArray |
 	^ anIndexTable indexOf: self
 		ifPresent:  [:index | self indexedRepresentation: index] 
-		ifAbsent: [byteArray := super encode: anIndexTable.
+		ifAbsent: [byteArray := super encodeWithPayload: anIndexTable.
 			anIndexTable add: self.
 			byteArray]
 	

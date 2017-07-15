@@ -1,4 +1,4 @@
 as yet unclassified
 getPayloadFrom: aByteArray
-	self opaqueData: (self getIntegerFrom: aByteArray from: 10 to: 17).
+	self opaqueData: (self getIntegerFrom: aByteArray from: self startOfPayload to: self endPoint).
 	

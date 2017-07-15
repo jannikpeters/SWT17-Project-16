@@ -1,3 +1,3 @@
 encode
 getPayloadFrom: aByteArray
-	^self
+	^ self

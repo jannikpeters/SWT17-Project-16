@@ -7,6 +7,7 @@
 		"testDataFrameFromPayloadAndPadding" : "jp 7/9/2017 09:33",
 		"testGoawayFrame" : "jp 7/8/2017 19:55",
 		"testHeaderFrame" : "jp 7/9/2017 09:45",
+		"testHeaderFrameWithoutPadding" : "jp 7/15/2017 13:44",
 		"testHeaderWithPriorityFrame" : "jp 7/9/2017 09:46",
 		"testPUSH_PROMISEFrame" : "jp 7/9/2017 09:53",
 		"testPingFrame" : "jp 7/8/2017 19:46",

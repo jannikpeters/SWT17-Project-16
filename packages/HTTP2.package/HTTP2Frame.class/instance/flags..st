@@ -1,3 +1,3 @@
 accessing
-flags: anObject
-	flags := anObject
+flags: anInteger
+	flags := anInteger

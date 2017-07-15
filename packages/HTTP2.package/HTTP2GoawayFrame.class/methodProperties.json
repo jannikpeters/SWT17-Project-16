@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"constructPayload" : "jp 7/15/2017 14:10",
 		"debugData" : "DS 7/3/2017 17:26",
-		"debugData:" : "DS 7/3/2017 17:26",
-		"encode" : "DS 7/3/2017 17:30",
+		"debugData:" : "jp 7/15/2017 13:14",
 		"errorCode" : "jp 6/27/2017 21:30",
-		"errorCode:" : "jp 6/27/2017 21:30",
-		"getPayloadFrom:" : "jp 7/8/2017 20:11",
+		"errorCode:" : "jp 7/15/2017 14:10",
+		"getPayloadFrom:" : "jp 7/15/2017 14:15",
 		"lastID" : "jp 6/27/2017 21:29",
 		"lastID:" : "jp 6/27/2017 21:29",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:30",

@@ -3,8 +3,8 @@
 		"fromParameters:" : "DS 7/3/2017 16:23" },
 	"instance" : {
 		"add:" : "DS 7/3/2017 16:24",
+		"constructPayload" : "jp 7/15/2017 13:23",
 		"decode" : "DS 7/3/2017 16:27",
-		"encode" : "DS 7/3/2017 16:27",
 		"flagAck" : "jp 6/27/2017 21:21",
 		"flagAck:" : "jp 6/19/2017 10:54",
 		"parameterList" : "DS 7/3/2017 16:23",

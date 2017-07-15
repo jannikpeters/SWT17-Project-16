@@ -1,3 +1,3 @@
 accessing
-streamIdentifier: anObject
-	streamIdentifier := anObject
+streamIdentifier: anInteger
+	streamIdentifier := anInteger

@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"encode" : "DS 7/3/2017 16:53",
+		"constructPayload" : "jp 7/15/2017 14:09",
+		"encode" : "jp 7/15/2017 13:27",
 		"flagEndHeaders" : "jp 6/27/2017 21:21",
 		"flagEndHeaders:" : "jp 6/19/2017 10:53",
-		"getPayloadFrom:" : "jp 7/9/2017 09:56",
+		"getPayloadFrom:" : "jp 7/15/2017 13:54",
+		"getRestPayloadFrom:withOffset:" : "jp 7/15/2017 14:15",
 		"promisedID" : "jp 6/27/2017 21:28",
 		"promisedID:" : "jp 6/27/2017 21:28",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:31",
