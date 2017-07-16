@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getNodeFor:with:" : "MK 7/16/2017 16:38",
+		"getValueFor:with:" : "MK 7/16/2017 13:57",
+		"isLeaf" : "MK 7/16/2017 16:37",
+		"isNode" : "MK 7/16/2017 16:37",
+		"one" : "MK 7/16/2017 13:47",
+		"one:" : "MK 7/16/2017 13:47",
+		"setValue:For:with:" : "MK 7/16/2017 15:56",
+		"zero" : "MK 7/16/2017 13:47",
+		"zero:" : "MK 7/16/2017 13:47" } }

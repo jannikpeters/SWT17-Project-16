@@ -1,0 +1,3 @@
+accessing
+isNode
+^False initializedInstance .

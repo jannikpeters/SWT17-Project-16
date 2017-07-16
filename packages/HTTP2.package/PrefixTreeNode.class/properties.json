@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"zero",
+		"one" ],
+	"name" : "PrefixTreeNode",
+	"pools" : [
+		 ],
+	"super" : "PrefixTree",
+	"type" : "normal" }

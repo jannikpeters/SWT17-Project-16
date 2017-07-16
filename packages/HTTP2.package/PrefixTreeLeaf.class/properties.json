@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "PrefixTreeLeaf",
+	"pools" : [
+		 ],
+	"super" : "PrefixTree",
+	"type" : "normal" }
