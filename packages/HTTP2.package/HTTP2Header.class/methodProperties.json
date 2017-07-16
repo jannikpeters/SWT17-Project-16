@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"decodeHuffman:" : "MK 7/16/2017 13:13",
 		"getHuffmanRFCLengthCollection" : "MK 7/15/2017 15:59",
 		"getHuffmanRFCLengthCollectionFirstPart:" : "MK 7/15/2017 15:57",
 		"getHuffmanRFCLengthCollectionSecondPart:" : "MK 7/15/2017 15:58",
