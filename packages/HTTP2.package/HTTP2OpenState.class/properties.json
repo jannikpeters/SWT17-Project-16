@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2OpenState",
+	"pools" : [
+		 ],
+	"super" : "HTTP2StreamState",
+	"type" : "normal" }

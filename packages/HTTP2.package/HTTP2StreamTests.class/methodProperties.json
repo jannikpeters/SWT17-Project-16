@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testOutgoingTraffic" : "H. G. 7/14/2017 03:29" } }
+		"testFlowControlWindow" : "H. G. 7/18/2017 12:24",
+		"testIncomingTraffic" : "H. G. 7/17/2017 16:25",
+		"testOutgoingTraffic" : "H. G. 7/16/2017 13:08" } }

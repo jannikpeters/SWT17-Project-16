@@ -4,6 +4,6 @@ encode
 	| payload |
 	payload := #[].
 	self parameterList do: [:association | payload := payload, 
-		((association key) asByteArrayOfSize: 2),
+		((HTTP2SettingsFrame settingsToIntDictionary at: association key) asByteArrayOfSize: 2),
 		((association value) asByteArrayOfSize: 4)].
 	^ super encode: payload.

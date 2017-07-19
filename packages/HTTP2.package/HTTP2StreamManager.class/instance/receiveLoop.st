@@ -1,6 +1,5 @@
 accessing
 receiveLoop
-|length aFrame|
 	[self connectionActive and: self socketStream atEnd not] whileTrue: [
 		self receive.
 		(Delay forMilliseconds: 1) wait]

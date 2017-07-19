@@ -38,3 +38,4 @@ testOutgoingTraffic
 				streamIdentifier: 5;
 				flagEndStream: 1;
 				yourself) encode.
+	self assert: stream state class equals: HTTP2HalfClosedLocalState

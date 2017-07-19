@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"header",
-		"data" ],
+		 ],
 	"name" : "HTTP2Request",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "HTTP2Message",
 	"type" : "normal" }

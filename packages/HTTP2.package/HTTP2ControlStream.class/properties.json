@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"streamManager",
+		"outQueue" ],
 	"name" : "HTTP2ControlStream",
 	"pools" : [
 		 ],
-	"super" : "HTTP2Stream",
+	"super" : "Object",
 	"type" : "normal" }

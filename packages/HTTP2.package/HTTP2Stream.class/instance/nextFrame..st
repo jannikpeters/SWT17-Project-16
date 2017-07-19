@@ -1,8 +1,10 @@
 accessing
 nextFrame: maxPayloadSize
+	| maxSize |
+	maxSize := maxPayloadSize min: self flowControlWindow.
 	self headerStreamOut ifNil: [
-		^ self firstHeaderFrame: maxPayloadSize].
+		^ self firstHeaderFrame: maxSize].
 	self headerStreamOut atEnd ifFalse: [
-		^ self nextContinuationFrame: maxPayloadSize].
+		^ self nextContinuationFrame: maxSize].
 	self dataStreamOut atEnd ifFalse: [
-		^ self nextDataFrame: maxPayloadSize].
+		^ self nextDataFrame: maxSize].
