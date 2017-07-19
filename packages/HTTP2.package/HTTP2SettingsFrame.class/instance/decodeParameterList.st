@@ -7,6 +7,5 @@ decodeParameterList
 		self parameterList add:
 			(HTTP2SettingsFrame intToSettingsCollection at: (readStream next: 2) asInteger)
 			->(readStream next: 4) asInteger
-	].
-	^ self parameterList
+	]
 	

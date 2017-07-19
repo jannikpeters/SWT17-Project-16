@@ -1,3 +1,3 @@
 initializing
 initialize 
-	self flags: 0.
+	self flags: 0

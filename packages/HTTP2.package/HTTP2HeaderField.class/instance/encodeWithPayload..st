@@ -1,5 +1,5 @@
 encoding
-encode: anIndexTable
+encodeWithPayload: anIndexTable
 	^ self
 		literalRepresentation: anIndexTable
 		prefix: self leadingBits

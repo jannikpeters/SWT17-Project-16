@@ -1,3 +1,3 @@
 accessing
 encode
-	^ super encode: self payload.
+	^ super encodeWithPayload: self constructPayload

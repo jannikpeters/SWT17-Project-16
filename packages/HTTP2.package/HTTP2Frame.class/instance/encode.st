@@ -1,7 +1,3 @@
 encode
 encode
-	^ (self payload size asByteArrayOfSize: 3),
-	(self type asByteArrayOfSize: 1),
-	(self flags asByteArrayOfSize: 1),
-	(self streamIdentifier asByteArrayOfSize: 4),
-	(self payload)
+	^ self encodeWithPayload: self constructPayload

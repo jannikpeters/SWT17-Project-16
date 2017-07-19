@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"encode" : "DS 7/3/2017 17:50",
-		"getPayloadFrom:" : "jp 7/8/2017 20:14",
+		"constructPayload" : "jp 7/15/2017 13:23",
+		"getPayloadFrom:" : "jp 7/15/2017 14:16",
 		"increment" : "jp 6/27/2017 21:30",
 		"increment:" : "jp 6/27/2017 21:30",
 		"receiveOnStream:" : "H. G. 7/14/2017 18:33",
