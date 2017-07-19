@@ -38,4 +38,4 @@ decodedBlock do: [:byte|
 	filledBits = 0 ifFalse: [
 		resultIndex := resultIndex -1]
 	].
-^ result
+^ ByteArray withAll: result

@@ -4,7 +4,7 @@ decodeHuffman: encodedBlock
 
 root := self getHuffmanTree.
 
-result := Dictionary new.
+result := Dictionary  new.
 resultIndex := 1.
 
 bytePosition := 1.
@@ -21,12 +21,10 @@ bitPosition := 7.
 			bitPosition := 7.
 			bytePosition := bytePosition + 1.
 			(bytePosition > encodedBlock size) ifTrue: [ 
-				^ result
+				^ ByteArray withAll: result
 				]
 			]
 		] .
 	result at: resultIndex put: node value  - 1.
 	resultIndex := resultIndex + 1.
 	]
-
-
