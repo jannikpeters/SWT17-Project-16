@@ -11,5 +11,5 @@
 	"name" : "PrefixTreeNode",
 	"pools" : [
 		 ],
-	"super" : "PrefixTree",
+	"super" : "Object",
 	"type" : "normal" }
