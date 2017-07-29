@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"headerBlockIn",
 		"request",
 		"response",
 		"responseBlock",
