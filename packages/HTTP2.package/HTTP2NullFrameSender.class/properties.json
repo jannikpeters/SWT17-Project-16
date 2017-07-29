@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2NullFrameSender",
+	"pools" : [
+		 ],
+	"super" : "HTTP2FrameSender",
+	"type" : "normal" }

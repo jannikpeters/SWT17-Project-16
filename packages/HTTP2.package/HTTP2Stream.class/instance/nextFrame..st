@@ -1,10 +1,13 @@
 accessing
 nextFrame: maxPayloadSize
-	| maxSize |
+	| maxSize frame |
 	maxSize := maxPayloadSize min: self flowControlWindow.
-	self headerStreamOut ifNil: [
+	frame := self sender nextFrame: maxSize.
+	self updateWindowSize: (frame size - 9) negated.
+	^ frame
+	"self headerStreamOut ifNil: [
 		^ self firstHeaderFrame: maxSize].
 	self headerStreamOut atEnd ifFalse: [
 		^ self nextContinuationFrame: maxSize].
 	self dataStreamOut atEnd ifFalse: [
-		^ self nextDataFrame: maxSize].
+		^ self nextDataFrame: maxSize]."

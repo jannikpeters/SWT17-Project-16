@@ -1,3 +1,3 @@
-as yet unclassified
+nil
 initialize
 	self dictionary: OrderedDictionary new

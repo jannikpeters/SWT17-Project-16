@@ -5,4 +5,4 @@ new: id for: aRequest onReceiveDo: responseBlock streamManager: aStreamManager
 		request: aRequest;
 		responseBlock: responseBlock;
 		streamManager: aStreamManager;
-		buildDataStream.
+		yourself.
