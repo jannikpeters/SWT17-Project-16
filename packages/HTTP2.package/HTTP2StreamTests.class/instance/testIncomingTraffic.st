@@ -4,13 +4,13 @@ testIncomingTraffic
 	sem := Semaphore new.
 	streamManager := HTTP2StreamManager new.
 	stream := HTTP2Stream new: 5 for: HTTP2Request new onReceiveDo: [:resp| response := resp. sem signal] streamManager: streamManager.
-	header := (HTTP2Header newInContext: (HTTP2HPACKIndexTable newWith: 1000))
+	header := (HTTP2Header new)
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
 		add: ':path' ->'/';
 		add: 'authority'->'www.example.com';
 		yourself.
-	headerBlock := header encode.
+	headerBlock := header encode: (HTTP2HPACKIndexTable newWith: 1000).
 	headerFrame := (HTTP2HeadersFrame new)
 		payload: (headerBlock first: 10);
 		streamIdentifier: 5;

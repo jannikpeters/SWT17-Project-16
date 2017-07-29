@@ -1,13 +1,13 @@
 testing
 testPUSH_PROMISEFrame
 	| header frame array | 
-	header := HTTP2Header newInContext: (HTTP2HPACKIndexTable newWith: 1000).
+	header := HTTP2Header new.
 	header 
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
 		add: ':path' ->'/';
 		add: ':authority'->'www.example.com'.
-	frame := HTTP2Push_PromiseFrame fromData: header encode andPaddingLength: 5.
+	frame := HTTP2Push_PromiseFrame fromData: (header encode: (HTTP2HPACKIndexTable newWith: 1000)) andPaddingLength: 5.
 	frame streamIdentifier: 13.
 	frame promisedID: 7.
 	frame flagEndHeaders: 1.

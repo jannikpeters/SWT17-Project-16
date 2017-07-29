@@ -19,10 +19,9 @@
 		"dataStreamIn",
 		"flowControlWindow",
 		"isWaitingForContinuationFrames",
-		"responseHeader",
-		"streamManager" ],
+		"responseHeader" ],
 	"name" : "HTTP2Stream",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "HTTP2AbstractStream",
 	"type" : "normal" }

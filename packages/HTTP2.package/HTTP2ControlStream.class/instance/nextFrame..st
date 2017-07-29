@@ -1,4 +1,5 @@
 as yet unclassified
 nextFrame: anInteger
 	"ingnore flowcontrol"
-	^ self outQueue removeFirst encode.
+	"Todo: flowControl"
+	^ self outQueue removeFirst encode

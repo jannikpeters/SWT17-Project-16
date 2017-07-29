@@ -3,13 +3,12 @@ testFlowControlWindow
 	| http2stream request frame |
 	request := HTTP2Request new.
 		request header: (HTTP2Header new
-			indexTable: (HTTP2HPACKIndexTable newWith: 1000);
 			add: ':method'->'GET';
 			add: ':authoritiy'->'www.example.com';
 			add: 'bla'->'blubblubblub';
 			yourself).
 		request data: 'just put some data here'.
-	http2stream := HTTP2Stream new: 3 for: request onReceiveDo: [:resp|] streamManager: nil.
+	http2stream := HTTP2Stream new: 3 for: request onReceiveDo: [:resp|] streamManager: HTTP2StreamManager new.
 	self assert: http2stream flowControlWindow equals: (2 raisedTo: 16) - 1.
 	http2stream updateWindowSize: ((2 raisedTo: 16) - 1) negated + 20.
 	self assert: http2stream flowControlWindow equals: 20.

@@ -2,17 +2,14 @@
 	"class" : {
 		"newFor:" : "H. G. 7/16/2017 13:13" },
 	"instance" : {
-		"allDataSent" : "H. G. 7/16/2017 13:00",
+		"allDataSent" : "H. G. 7/29/2017 13:34",
 		"headerCompleted" : "H. G. 7/15/2017 15:10",
 		"http2stream" : "H. G. 7/16/2017 13:14",
 		"http2stream:" : "H. G. 7/16/2017 13:14",
-		"receiveContinuationFrame:" : "H. G. 7/16/2017 13:04",
-		"receiveDataFrame:" : "H. G. 7/15/2017 13:40",
-		"receiveGoawayFrame:" : "H. G. 7/15/2017 14:29",
-		"receiveHeaderFrame:" : "H. G. 7/15/2017 13:40",
-		"receivePingFrame:" : "H. G. 7/15/2017 14:28",
+		"receiveContinuationFrame:" : "H. G. 7/29/2017 13:33",
+		"receiveDataFrame:" : "H. G. 7/29/2017 13:32",
+		"receiveHeaderFrame:" : "H. G. 7/29/2017 13:32",
 		"receivePriorityFrame:" : "H. G. 7/15/2017 14:19",
-		"receivePushPromiseFrame:" : "H. G. 7/15/2017 14:27",
+		"receivePushPromiseFrame:" : "H. G. 7/29/2017 13:32",
 		"receiveRSTStreamFrame:" : "H. G. 7/16/2017 13:15",
-		"receiveSettingsFrame:" : "H. G. 7/15/2017 13:40",
 		"receiveWindowUpdateFrame:" : "H. G. 7/15/2017 14:13" } }

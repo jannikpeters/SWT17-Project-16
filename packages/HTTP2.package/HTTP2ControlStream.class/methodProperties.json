@@ -3,19 +3,11 @@
 		"newFor:" : "H. G. 7/17/2017 20:08" },
 	"instance" : {
 		"hasFrames" : "H. G. 7/17/2017 16:42",
-		"initialize" : "H. G. 7/17/2017 16:42",
-		"nextFrame:" : "H. G. 7/17/2017 20:10",
+		"initialize" : "H. G. 7/29/2017 13:20",
+		"nextFrame:" : "H. G. 7/29/2017 13:21",
 		"outQueue" : "H. G. 7/17/2017 16:42",
 		"outQueue:" : "H. G. 7/17/2017 16:42",
-		"receiveContinuationFrame:" : "H. G. 7/16/2017 14:42",
-		"receiveDataFrame:" : "H. G. 7/16/2017 14:42",
-		"receiveGoawayFrame:" : "H. G. 7/18/2017 22:32",
-		"receiveHeaderFrame:" : "H. G. 7/16/2017 14:43",
+		"receiveGoawayFrame:" : "H. G. 7/29/2017 13:23",
 		"receivePingFrame:" : "H. G. 7/19/2017 00:45",
-		"receivePriorityFrame:" : "H. G. 7/16/2017 14:43",
-		"receivePushPromiseFrame:" : "H. G. 7/16/2017 14:43",
-		"receiveRSTStreamFrame:" : "H. G. 7/16/2017 14:43",
 		"receiveSettingsFrame:" : "H. G. 7/19/2017 17:09",
-		"receiveWindowUpdateFrame:" : "H. G. 7/16/2017 14:40",
-		"streamManager" : "H. G. 7/17/2017 20:08",
-		"streamManager:" : "H. G. 7/17/2017 20:08" } }
+		"receiveWindowUpdateFrame:" : "H. G. 7/29/2017 13:30" } }

@@ -1,7 +1,7 @@
 as yet unclassified
 firstHeaderFrame: maxPayloadSize
 	| frame byteArray |
-	self headerStreamOut: (ReadStream on: (self request header encode)).
+	self headerStreamOut: (ReadStream on: (self request header encode: self streamManager headerTableOut)).
 	frame := (HTTP2HeadersFrame new)
 		streamIdentifier: self id;
 		payload: (self headerStreamOut next: maxPayloadSize).

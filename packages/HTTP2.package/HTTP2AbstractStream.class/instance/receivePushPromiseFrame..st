@@ -1,3 +1,3 @@
 as yet unclassified
-receiveHeaderFrame: aFrame
+receivePushPromiseFrame: aFrame
 	self subclassResponsibility

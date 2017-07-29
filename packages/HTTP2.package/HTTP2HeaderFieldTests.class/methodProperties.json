@@ -13,7 +13,7 @@
 		"testDecodeIndexed" : "H. G. 6/6/2017 18:33",
 		"testDecodeInteger" : "jp 6/10/2017 12:34",
 		"testDecodeString" : "jp 6/18/2017 21:27",
-		"testDecodeStringWithHuffman" : "MK 7/22/2017 13:59",
+		"testDecodeStringWithHuffman" : "H. G. 7/29/2017 13:20",
 		"testDecodeWithIndexing" : "jp 6/19/2017 10:20",
 		"testDecodeWithoutIndexing" : "jp 6/19/2017 10:21",
 		"testEncodeInteger" : "jp 6/6/2017 11:45",

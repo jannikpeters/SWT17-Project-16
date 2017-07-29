@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indexTable" ],
+		"dictionary" ],
 	"name" : "HTTP2Header",
 	"pools" : [
 		 ],
-	"super" : "OrderedDictionary",
+	"super" : "Object",
 	"type" : "normal" }

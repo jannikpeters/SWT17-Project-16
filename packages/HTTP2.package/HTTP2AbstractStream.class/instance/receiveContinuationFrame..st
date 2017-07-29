@@ -1,3 +1,3 @@
 as yet unclassified
-receiveHeaderFrame: aFrame
+receiveContinuationFrame: aFrame
 	self subclassResponsibility

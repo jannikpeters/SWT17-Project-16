@@ -1,7 +1,7 @@
 testDecode
 testDecodeStringWithHuffman
 | decoded encoded encodedString|
-
+	self assert: false.
 	encoded := #[16r9d 16r29 16rad 16r17 16r18 16r63 16rc7 16r8f 16r0b 16r97 16rc8 16re9 16rae 16r82 16rae 16r43 16rd3].
 	"https://www.example.com"
 	decoded :=  #[104 116 116 112 115 58 47 47 119 119 119 46 101 120 97 109 112 108 101 46 99 111 109].

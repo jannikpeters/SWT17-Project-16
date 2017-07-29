@@ -1,3 +1,3 @@
 as yet unclassified
-receiveHeaderFrame: aFrame
+receiveWindowUpdateFrame: aFrame
 	self subclassResponsibility

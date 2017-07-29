@@ -1,13 +1,13 @@
 testing
 testHeaderWithPriorityFrame
 	| header frame array| 
-	header := HTTP2Header newInContext: (HTTP2HPACKIndexTable newWith: 1000).
+	header := HTTP2Header new.
 	header 
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
 		add: ':path' ->'/';
 		add: ':authority'->'www.example.com'.
-	frame := HTTP2HeadersFrame fromData: header encode andPaddingLength: 5.
+	frame := HTTP2HeadersFrame fromData: (header encode: (HTTP2HPACKIndexTable newWith: 1000)) andPaddingLength: 5.
 	frame flagPriority: 1.
 	frame E: 1.
 	frame streamDependency: 7.
