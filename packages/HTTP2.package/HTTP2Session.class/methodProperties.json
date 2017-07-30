@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"connectionPreface" : "H. G. 7/12/2017 00:19",
-		"establishConnectionTo:" : "H. G. 7/19/2017 01:15" },
+		"establishConnectionTo:" : "jp 7/30/2017 17:55" },
 	"instance" : {
 		"close" : "H. G. 7/14/2017 14:30",
-		"newRequestFor:" : "H. G. 7/19/2017 01:10",
+		"newRequestFor:" : "jp 7/30/2017 17:55",
 		"send:onReceiveDo:" : "H. G. 7/14/2017 14:56",
 		"server" : "H. G. 7/12/2017 00:15",
 		"server:" : "H. G. 7/12/2017 00:15",
