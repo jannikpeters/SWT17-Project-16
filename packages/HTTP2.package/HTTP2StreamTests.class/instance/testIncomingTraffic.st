@@ -32,4 +32,4 @@ testIncomingTraffic
 	sem wait.
 	self assert: response data equals: data asByteArray.
 	self assert: response header equals: header.
-	self assert: stream state class equals: HTTP2HalfClosedRemoteState.
+	self assert: stream receiver class equals: HTTP2NullReceiver.

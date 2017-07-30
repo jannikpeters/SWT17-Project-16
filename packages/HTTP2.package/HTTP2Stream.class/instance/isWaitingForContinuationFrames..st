@@ -1,3 +1,0 @@
-accessing
-isWaitingForContinuationFrames: anObject
-	isWaitingForContinuationFrames := anObject
