@@ -3,5 +3,5 @@ deliverResponse
 	| response |
 	response := (HTTP2Response new)
 		header: self responseHeader;
-		data: self dataStreamIn contents.
+		data: self byteStreamIn contents.
 	[self responseBlock value: response] fork

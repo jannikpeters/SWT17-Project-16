@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newFor:" : "H. G. 7/30/2017 18:34" },
+	"instance" : {
+		"nextState" : "H. G. 7/30/2017 18:03",
+		"nextState:" : "H. G. 7/30/2017 18:03",
+		"receiveContinuationFrame:" : "H. G. 7/30/2017 18:02",
+		"receiveDataFrame:" : "H. G. 7/30/2017 18:02",
+		"receiveHeaderFrame:" : "H. G. 7/30/2017 18:02",
+		"receivePriorityFrame:" : "H. G. 7/30/2017 18:08",
+		"receivePushPromiseFrame:" : "H. G. 7/30/2017 18:01",
+		"receiveRSTStreamFrame:" : "H. G. 7/30/2017 18:00",
+		"receiveWindowUpdateFrame:" : "H. G. 7/30/2017 17:59",
+		"stream" : "H. G. 7/30/2017 18:03",
+		"stream:" : "H. G. 7/30/2017 18:03",
+		"transition" : "H. G. 7/30/2017 18:35" } }
