@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTP2DataFrameReceiver",
+	"pools" : [
+		 ],
+	"super" : "HTTP2FrameReceiver",
+	"type" : "normal" }

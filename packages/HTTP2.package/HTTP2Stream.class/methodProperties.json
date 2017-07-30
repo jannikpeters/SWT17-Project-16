@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"new:for:onReceiveDo:streamManager:" : "H. G. 7/29/2017 15:40" },
+		"new:for:onReceiveDo:streamManager:" : "H. G. 7/30/2017 17:46" },
 	"instance" : {
 		"atEnd" : "H. G. 7/29/2017 15:04",
+		"byteStreamIn" : "H. G. 7/30/2017 18:10",
+		"byteStreamIn:" : "H. G. 7/30/2017 18:10",
 		"byteStreamOut" : "H. G. 7/29/2017 14:20",
 		"byteStreamOut:" : "H. G. 7/29/2017 14:20",
 		"dataStreamIn" : "H. G. 7/15/2017 13:54",
@@ -16,7 +18,7 @@
 		"id" : "H. G. 7/14/2017 03:25",
 		"id:" : "H. G. 7/14/2017 03:25",
 		"increaseFlowControlWindow:" : "H. G. 7/15/2017 14:12",
-		"initialize" : "H. G. 7/29/2017 15:15",
+		"initialize" : "H. G. 7/30/2017 18:10",
 		"isAbleToSend" : "H. G. 7/18/2017 12:06",
 		"isWaitingForContinuationFrames" : "H. G. 7/15/2017 14:58",
 		"isWaitingForContinuationFrames:" : "H. G. 7/15/2017 14:58",
@@ -28,6 +30,8 @@
 		"receivePushPromiseFrame:" : "H. G. 7/15/2017 13:23",
 		"receiveRSTStreamFrame:" : "H. G. 7/15/2017 13:23",
 		"receiveWindowUpdateFrame:" : "H. G. 7/15/2017 13:24",
+		"receiver" : "H. G. 7/30/2017 18:07",
+		"receiver:" : "H. G. 7/30/2017 18:07",
 		"request" : "H. G. 7/12/2017 03:08",
 		"request:" : "H. G. 7/12/2017 03:08",
 		"response" : "H. G. 7/12/2017 03:08",

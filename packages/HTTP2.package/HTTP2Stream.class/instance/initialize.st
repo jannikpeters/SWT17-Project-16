@@ -4,5 +4,5 @@ initialize
 	self dataStreamIn: (WriteStream on: ByteArray new).
 	self state: (HTTP2OpenState newFor: self).
 	self isWaitingForContinuationFrames: false.
-	self flowControlWindow: (2 raisedTo: 16) - 1.
 	self sender: (HTTP2HeaderFrameSender newFor: self).
+	self byteStreamIn: (WriteStream on: ByteArray new).

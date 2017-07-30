@@ -17,7 +17,9 @@
 		"isWaitingForContinuationFrames",
 		"responseHeader",
 		"byteStreamOut",
-		"sender" ],
+		"byteStreamIn",
+		"sender",
+		"receiver" ],
 	"name" : "HTTP2Stream",
 	"pools" : [
 		 ],
