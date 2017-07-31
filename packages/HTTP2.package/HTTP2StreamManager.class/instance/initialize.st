@@ -7,3 +7,5 @@ initialize
 	self initialWindowSize: (2 raisedTo: 16)-1.
 	self maxConcurrentStreams: (2 raisedTo: 32) - 1.
 	self maxFrameSize: (2 raisedTo: 14).
+	self flowControlWindow: self initialWindowSize.
+	self headerLock: 0

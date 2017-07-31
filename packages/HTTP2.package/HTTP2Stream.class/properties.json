@@ -14,7 +14,6 @@
 		"byteStreamIn",
 		"sender",
 		"receiver",
-		"responseBlock",
 		"promise" ],
 	"name" : "HTTP2Stream",
 	"pools" : [

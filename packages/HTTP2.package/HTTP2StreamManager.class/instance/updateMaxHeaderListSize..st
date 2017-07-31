@@ -1,3 +1,3 @@
 accessing
 updateMaxHeaderListSize: anInteger
-	"Todo"
+	"Ignore that setting for now"

@@ -1,5 +1,7 @@
 accessing
 updateInitialWindowSize: anInteger
-	(anInteger >= (2 raisedTo: 14) and: anInteger < (2 raisedTo: 24))
-		ifTrue: [self initialWindowSize: anInteger]
-		ifFalse:["we should throw an Error here"]
+	self initialWindowSize > anInteger
+		ifTrue: [self activeStreams do: [:stream |
+				stream updateWindowSize: anInteger - self initialWindowSize]].
+	self updateWindowSize: anInteger - self initialWindowSize.
+	self initialWindowSize: anInteger

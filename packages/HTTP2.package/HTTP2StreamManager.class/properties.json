@@ -16,7 +16,9 @@
 		"initialWindowSize",
 		"maxConcurrentStreams",
 		"maxFrameSize",
-		"receivingProcess" ],
+		"receivingProcess",
+		"flowControlWindow",
+		"headerLock" ],
 	"name" : "HTTP2StreamManager",
 	"pools" : [
 		 ],

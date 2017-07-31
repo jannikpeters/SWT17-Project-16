@@ -13,7 +13,7 @@ testOutgoingTraffic
 		header: header;
 		data: data;
 		yourself.
-	stream := HTTP2Stream new: 5 for: request onReceiveDo: [] streamManager: HTTP2StreamManager new.
+	stream := HTTP2Stream new: 5 for: request streamManager: HTTP2StreamManager new.
 	self assert:
 			(stream nextFrame: 10)
 		equals: 
