@@ -4,4 +4,4 @@ deliverResponse
 	response := (HTTP2Response new)
 		header: self responseHeader;
 		data: self byteStreamIn contents.
-	[self responseBlock value: response] fork
+	Project current addDeferredUIMessage: [self promise resolveWith: response]

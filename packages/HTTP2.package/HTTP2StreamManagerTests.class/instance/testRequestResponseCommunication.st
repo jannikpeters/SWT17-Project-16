@@ -1,6 +1,6 @@
 as yet unclassified
 testRequestResponseCommunication
-	| streamManager mockStream outframe inframe request response sem inHeader |
+	| streamManager mockStream outframe inframe request inHeader promise |
 	mockStream := HTTP2MockSocketStream new.
 	streamManager := HTTP2StreamManager new.
 	"dont't use connectTo: method because we need to apply MockSocketStream instead of establishing real Connection"
@@ -15,8 +15,7 @@ testRequestResponseCommunication
 		add: ':path' -> '/aPath/example/';
 		add: ':scheme' -> 'http';
 		add: ':authority' -> 'www.example.com'.
-	sem := Semaphore new.
-	streamManager openStreamFor: request onReceiveDo: [:resp|response := resp. sem signal.].
+	promise := streamManager openStreamFor: request.
 	(Delay forMilliseconds: 10) wait.
 	outframe := HTTP2HeadersFrame new
 		payload: ((HTTP2Header new
@@ -48,6 +47,7 @@ testRequestResponseCommunication
 		flagEndStream: 1;
 		yourself.
 	mockStream inStream addAll: inframe encode.
-	sem wait.
+	promise then: [:response |
 	self assert: response header equals: inHeader.
-	self assert: response data equals: 'some data' asByteArray
+	self assert: response data equals: 'some data' asByteArray.
+	self assert: (streamManager activeStreams size) equals: 0]

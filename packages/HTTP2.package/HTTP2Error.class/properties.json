@@ -11,5 +11,5 @@
 	"name" : "HTTP2Error",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Error",
 	"type" : "normal" }

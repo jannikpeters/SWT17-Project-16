@@ -1,9 +1,8 @@
 as yet unclassified
 testIncomingTraffic
-	| stream response headerFrame streamManager header dataFrame headerBlock continuationFrame data sem |
-	sem := Semaphore new.
+	| stream headerFrame streamManager header dataFrame headerBlock continuationFrame data |
 	streamManager := HTTP2StreamManager new.
-	stream := HTTP2Stream new: 5 for: HTTP2Request new onReceiveDo: [:resp| response := resp. sem signal] streamManager: streamManager.
+	stream := HTTP2Stream new: 5 for: HTTP2Request new streamManager: streamManager.
 	header := (HTTP2Header new)
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
@@ -29,7 +28,7 @@ testIncomingTraffic
 	headerFrame receiveOnStream: stream.
 	continuationFrame receiveOnStream: stream.
 	dataFrame receiveOnStream: stream.
-	sem wait.
+	stream promise then: [:response |
 	self assert: response data equals: data asByteArray.
 	self assert: response header equals: header.
-	self assert: stream receiver class equals: HTTP2NullReceiver.
+	self assert: stream receiver class equals: HTTP2NullReceiver]
