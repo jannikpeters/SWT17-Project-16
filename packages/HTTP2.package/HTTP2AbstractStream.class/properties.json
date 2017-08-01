@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"streamManager" ],
+	"name" : "HTTP2AbstractStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

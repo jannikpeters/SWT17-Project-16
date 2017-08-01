@@ -20,7 +20,6 @@ testUpdatingSettings
 			yourself.
 	self assert: mockStream outStream contents equals: frame encode.
 	self assert: streamManager maxConcurrentStreams equals: 110.
+	self assert: streamManager headerTableOut maxDynamicSize equals: 2048.
+	self assert: streamManager headerTableOut dynamicTable size <= 2048.
 	streamManager closeConnection.
-	"Todo: test other settings"
-	"initial window size will be tested in testFlowControlWindow"
-	self assert: 0 equals: 1.

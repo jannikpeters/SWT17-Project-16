@@ -1,0 +1,3 @@
+as yet unclassified
+receivePushPromiseFrame: aFrame
+	self subclassResponsibility

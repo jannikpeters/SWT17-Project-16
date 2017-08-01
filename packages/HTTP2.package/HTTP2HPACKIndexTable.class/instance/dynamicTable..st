@@ -1,3 +1,3 @@
 accessing
-dynamicTable: anObject
-	dynamicTable := anObject
+dynamicTable: aTable
+	dynamicTable := aTable

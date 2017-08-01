@@ -1,16 +1,15 @@
 as yet unclassified
 testIncomingTraffic
-	| stream response headerFrame streamManager header dataFrame headerBlock continuationFrame data sem |
-	sem := Semaphore new.
+	| stream headerFrame streamManager header dataFrame headerBlock continuationFrame data |
 	streamManager := HTTP2StreamManager new.
-	stream := HTTP2Stream new: 5 for: HTTP2Request new onReceiveDo: [:resp| response := resp. sem signal] streamManager: streamManager.
-	header := (HTTP2Header newInContext: (HTTP2HPACKIndexTable newWith: 1000))
+	stream := HTTP2Stream new: 5 for: HTTP2Request new streamManager: streamManager.
+	header := (HTTP2Header new)
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
 		add: ':path' ->'/';
 		add: 'authority'->'www.example.com';
 		yourself.
-	headerBlock := header encode.
+	headerBlock := header encode: (HTTP2HPACKIndexTable newWith: 1000).
 	headerFrame := (HTTP2HeadersFrame new)
 		payload: (headerBlock first: 10);
 		streamIdentifier: 5;
@@ -29,7 +28,7 @@ testIncomingTraffic
 	headerFrame receiveOnStream: stream.
 	continuationFrame receiveOnStream: stream.
 	dataFrame receiveOnStream: stream.
-	sem wait.
+	stream promise then: [:response |
 	self assert: response data equals: data asByteArray.
 	self assert: response header equals: header.
-	self assert: stream state class equals: HTTP2HalfClosedRemoteState.
+	self assert: stream receiver class equals: HTTP2NullReceiver]

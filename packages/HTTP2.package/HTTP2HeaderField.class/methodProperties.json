@@ -8,7 +8,9 @@
 		"key:value:" : "H. G. 6/18/2017 20:59",
 		"newFrom:in:" : "H. G. 7/18/2017 12:38" },
 	"instance" : {
-		"encodeInteger:with:" : "DS 5/31/2017 23:28",
+		"calculateSolutionFor:index:in:" : "jp 7/30/2017 18:30",
+		"encodeInteger:with:" : "jp 7/30/2017 18:40",
+		"encodeRemaindingInteger:with:" : "jp 7/30/2017 18:41",
 		"encodeString:" : "DS 5/31/2017 23:38",
 		"encodeWithPayload:" : "jp 7/15/2017 13:10",
 		"indexedRepresentation:" : "jp 6/6/2017 11:28",

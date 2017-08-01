@@ -1,24 +1,20 @@
 instance creation
 encodeHuffman: decodedBlock
-| code length minLength maxLength result resultIndex filledBits actualLength actualPlain shiftCount byteCount byteAnd newValue |
+| code length result resultIndex filledBits actualLength actualPlain shiftCount byteCount byteAnd newValue |
 
 code := self getHuffmanRFCValueCollection.
 length := self getHuffmanRFCLengthCollection.
 
-minLength := 3.
-maxLength := 30.
-
 result := Dictionary new.
 resultIndex := 1.
 filledBits := 0.
-
 decodedBlock do: [:byte|
 	actualLength := length at: (byte + 1).
 	actualPlain := code at: (byte + 1).
 	
 	shiftCount := ((40 - actualLength - filledBits) \\ 8).
 	actualPlain := actualPlain << shiftCount.
-	byteCount := actualLength // 8 + 1.
+	byteCount := actualLength - 1 // 8 + 1.
 	(actualLength \\ 8 + shiftCount) > 8 ifTrue: [
 		byteCount := byteCount + 1.
 	].

@@ -1,3 +1,4 @@
 accessing
 responseToUnfinishedRequests
-	"here we should inform all processe, that are waiting for a response, that there will be no response"
+	self activeStreams do: [:stream |
+		stream closeOnError: 'Connection was closed before the response was complete']

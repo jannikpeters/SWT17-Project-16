@@ -1,5 +1,5 @@
 as yet unclassified
-newFor: anStreamManager
+newFor: aStreamManager
 	^self new
-		streamManager: anStreamManager;
+		streamManager: aStreamManager;
 		yourself.

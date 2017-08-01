@@ -1,3 +1,0 @@
-accessing
-headerBlockIn
-	^ headerBlockIn

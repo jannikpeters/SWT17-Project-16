@@ -1,3 +1,0 @@
-accessing
-responseBlock
-	^ responseBlock

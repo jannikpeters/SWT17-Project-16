@@ -1,20 +1,19 @@
 as yet unclassified
 testOutgoingTraffic
 	| header stream request headerBlock data |
-	header := (HTTP2Header newInContext: (HTTP2HPACKIndexTable newWith: 1000))
+	header := (HTTP2Header new)
 		add: ':method'->'GET';
 		add: ':scheme'->'http';
 		add: ':path' ->'/';
 		add: 'authority'->'www.example.com';
 		yourself.
-	headerBlock := header encode.
+	headerBlock := header encode: (HTTP2HPACKIndexTable newWith: 1000).
 	data := 'some data' asByteArray.
-	header indexTable: (HTTP2HPACKIndexTable newWith: 1000).
 	request := (HTTP2Request new)
 		header: header;
 		data: data;
 		yourself.
-	stream := HTTP2Stream new: 5 for: request onReceiveDo: [].
+	stream := HTTP2Stream new: 5 for: request streamManager: HTTP2StreamManager new.
 	self assert:
 			(stream nextFrame: 10)
 		equals: 
@@ -38,4 +37,4 @@ testOutgoingTraffic
 				streamIdentifier: 5;
 				flagEndStream: 1;
 				yourself) encode.
-	self assert: stream state class equals: HTTP2HalfClosedLocalState
+	self assert: stream sender class equals: HTTP2NullFrameSender

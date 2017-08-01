@@ -1,0 +1,3 @@
+as yet unclassified
+receiveWindowUpdateFrame: aFrame
+	self subclassResponsibility

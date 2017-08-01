@@ -1,3 +1,3 @@
 accessing
-dynamicSize: anObject
-	dynamicSize := anObject
+dynamicSize: anInteger
+	dynamicSize := anInteger
