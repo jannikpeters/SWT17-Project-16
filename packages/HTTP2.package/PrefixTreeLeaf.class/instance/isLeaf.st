@@ -1,3 +1,3 @@
 accessing
 isLeaf
-^True initializedInstance .
+	^true .

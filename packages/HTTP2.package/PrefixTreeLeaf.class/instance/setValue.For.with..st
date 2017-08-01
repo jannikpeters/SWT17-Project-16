@@ -1,4 +1,3 @@
 accessing
 setValue: aValue For: searchPathInt with: ANDDecisionInt
-	
-	value := aValue.
+	self value: aValue.

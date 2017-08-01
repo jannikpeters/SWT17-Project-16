@@ -1,3 +1,3 @@
 accessing
 isNode
-^True initializedInstance .
+	^true.

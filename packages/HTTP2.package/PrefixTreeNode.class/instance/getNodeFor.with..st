@@ -1,7 +1,7 @@
 accessing
 getNodeFor: searchString with: ANDDecisionString
 	^ (((searchString bitAnd: ANDDecisionString) = 0) ifTrue: [
-		zero 
+		self zero 
 		] ifFalse: [
-		one
+		self one
 		] ) .
